@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Poppins:wght@300&display=swap');
 
+
+:root{
+    --green: green;
+    --black: #130f40;
+    --lightt-color: #666;
+    --box-shadow: 0 .5rem 1 rem rgba(0,0,0.1);
+    --border: 2rem solid rgba(0,0,0.1);
+    --outline: .1rem solid rgba(0.0,0.1);
+
+}
+
 * {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Poppins', sans-serif;
@@ -11,4 +22,11 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
 }
