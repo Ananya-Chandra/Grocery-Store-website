@@ -66,3 +66,7 @@ body{
 .header .navbar a:hover{
     color: var(--green);
 }
+
+.header .icons div{
+
+}
